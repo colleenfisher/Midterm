@@ -1,1 +1,7 @@
-# Midterm
+# Matching Memory Game
+# I think that this took me about 8-10 hours to complete.
+# The most time consuming part was figuring out the delay before flipping the cards back over and ensuring other parts of the game ran smoothly with no glitches. 
+# I think I could have worked in smaller chunks. I started with the code I got from Chat GPT and then worked to make it into how I wanted the game to be. I think I could have worked more efficiently if I broke down the original code instead of diving in to all of it at once. 
+# The most useful library was pygame. It helped me to draw the game window and render the cards and text. It was also helpful using pygame.rect to clarify what areas were clickable for the game. 
+# How to run the code and what it's supposed to do:
+# This is a memory matching game. The objective is to match pairs of hidden symbols within a limited time. The game tracks the number of attempts, matched pairs, and displays a timer for game completion. You have a set amount of time (200 seconds) to match all pairs of cards. The tracker in the top right hand corner tracks how many attempts it took to match all the pairs and keeps count of the correct matches. The game is over when either the player matches all pairs or the timer runs out. To play you press shift and return and then the game will open a window with a grid of face-down cards. You will click on any card to flip it over. Then you click on a second card to try and find a matching pair. If the two cards match, they will stay face-up. If they do not match, they will flip back over.The game ends when you match all the pairs and win or when the timer runs out and you lose.
